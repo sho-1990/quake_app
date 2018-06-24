@@ -2,7 +2,6 @@
 
 quake check
 
-## Getting Started
+# Source
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+https://www.udemy.com/flutter-dart-the-complete-flutter-app-development-course/learn/v4/overview
