@@ -64,9 +64,8 @@ class _HomeState extends State<Home> {
 
       final DateTime time = DateTime.fromMillisecondsSinceEpoch(int.parse(prop['time'].toString()));
 
-      var formatter = DateFormat("MMMM d, yyyy ", "en_US");
-      var jmFormatter = DateFormat.jm("en_US");
-      item.time  = formatter.format(time) + jmFormatter.format(time);
+      var formatter = DateFormat.yMMMMd().add_jm();
+      item.time  = formatter.format(time);
       item.title = prop['title'];
       items.add(item);
     }
